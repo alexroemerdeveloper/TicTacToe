@@ -13,6 +13,7 @@
 		6FE659542527291600883532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE659532527291600883532 /* Preview Assets.xcassets */; };
 		6FE6595F2527291600883532 /* TicTacaToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6595E2527291600883532 /* TicTacaToeTests.swift */; };
 		6FE6596A2527291700883532 /* TicTacaToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE659692527291700883532 /* TicTacaToeUITests.swift */; };
+		6FE6597B2527422800883532 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6597A2527422800883532 /* TicTacToeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6FE659652527291700883532 /* TicTacaToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacaToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE659692527291700883532 /* TicTacaToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacaToeUITests.swift; sourceTree = "<group>"; };
 		6FE6596B2527291700883532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE6597A2527422800883532 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				6FE6594C2527291200883532 /* TicTacaToeApp.swift */,
 				6FE6594E2527291200883532 /* ContentView.swift */,
+				6FE6597A2527422800883532 /* TicTacToeView.swift */,
 				6FE659502527291600883532 /* Assets.xcassets */,
 				6FE659552527291600883532 /* Info.plist */,
 				6FE659522527291600883532 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE6597B2527422800883532 /* TicTacToeView.swift in Sources */,
 				6FE6594F2527291200883532 /* ContentView.swift in Sources */,
 				6FE6594D2527291200883532 /* TicTacaToeApp.swift in Sources */,
 			);
